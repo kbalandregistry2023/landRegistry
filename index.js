@@ -1,8 +1,8 @@
 console.log("hi")
-// const LandDetailsInfo = require('./model/LandRegistryDB');
-// const LandRegistrationsInfo = require('./model/LandRegistryDB');
+// const LandDetailsInfo = require('./LandRegistryDB');
+// const LandRegistrationsInfo = require('./LandRegistryDB');
 
-const LandRegistryDB = require('./model/LandRegistryDB');
+const LandRegistryDB = require('./LandRegistryDB');
 const filter = { "registrationDocumentVolumePageNumber": '1751/271-278/30/218' };
 
 // LandDetailsInfo.find(filter)
